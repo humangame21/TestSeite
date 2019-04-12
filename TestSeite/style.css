@@ -12,12 +12,16 @@ div {
     filter: grayscale(75%);
     pointer-events: auto;
 }
+#spiel {
+    display: none;
 
+}
 #spiel div {
     background-color: blanchedalmond;
     display: inline-block;
-    padding: 2.5%;
+    padding: 50px;
     border: 2px solid black;
+
 }
 div.oben{
     background-color:red;
