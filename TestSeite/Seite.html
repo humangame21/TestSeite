@@ -6,16 +6,16 @@
     <link href="style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script language="javascript" type="text/javascript" src="script.js"></script>
+    <script language="javascript" type="text/javascript" src="Spiel/TicTac.js"></script>
 </head>
 <body>
 <div class="oben">
     <h2>Eine Überschrift</h2>
     <button type="button"onclick="funktion1()">Menüpunkt1</button>
-    <button type="button"onclick="funktion2"id="button2"> Menüpunkt2 </button>
+    <button type="button"onclick="createField()"id="button2"> Menüpunkt2 </button>
     <button type="button"onclick="funktion3"id="button3"> Menüpunkt3 </button>
     <button type="button"onclick="funktion4"id=button4> Menüpunkt4 </button>
 </div>
-
 <div>
 <p id="test"></p>
 <p>Hier könnte ihre Werbung stehen</p>
@@ -24,6 +24,7 @@
     <li>Punkt1</li>
     <li>Punkt 2</li>
 </ul>
-
+<div id="spiel"></div>
+<p id="player"></p>
 </body>
 </html>

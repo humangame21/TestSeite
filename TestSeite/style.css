@@ -2,8 +2,23 @@
     margin: 0;
     padding: 0;
 }
+div {
+
+}
 
 
+
+#spiel div:hover{
+    filter: grayscale(75%);
+    pointer-events: auto;
+}
+
+#spiel div {
+    background-color: blanchedalmond;
+    display: inline-block;
+    padding: 2.5%;
+    border: 2px solid black;
+}
 div.oben{
     background-color:red;
     height: 25%;
@@ -15,6 +30,5 @@ button{
     padding-left: 3%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-
     margin-left: 2.5%;
 }

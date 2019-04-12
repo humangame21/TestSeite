@@ -1,5 +1,4 @@
 var eh = false;
-jQuery(document).ready(
     function funktion1() {
         if(!eh) {
             $("#test").append("Test");
